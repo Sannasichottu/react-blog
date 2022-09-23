@@ -10,11 +10,14 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import { useContext } from "react";
+import { Context } from "./context/Context";
 
 
 function App() {
   
-  const user = false;
+  const {user} = useContext(Context);
+  
   return (
     <Router>
       <TopBar/>
@@ -24,7 +27,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/register">
-          { user ? <Home /> : <Register />}
+          {user ? <Home /> : <Register/> }
         </Route>
         <Route path="/login">
           {user ? <Home/> : <Login />}
