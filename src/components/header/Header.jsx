@@ -7,7 +7,7 @@ export default function Header() {
         <span className='headerTitleSm' >React & Node</span>
         <span className='headerTitleLg'>Blog</span>
       </div>
-      <img className='headerImg' src="https://images.pexels.com/photos/207247/pexels-photo-207247.jpeg?cs=srgb&dl=pexels-pixabay-207247.jpg&fm=jpg" alt="" />
+      <img className='headerImg' src="https://images.pexels.com/photos/2055957/pexels-photo-2055957.jpeg" alt="" />
     </div>
   )
 }

@@ -18,7 +18,7 @@ export default function Sidebar() {
             <span className="sidebarTitle">ABOUT ME</span>
 
             <br />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Flower_jtca001.jpg" alt="" />
+                <img src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laboriosam corrupti consequatur</p>
             </div>
