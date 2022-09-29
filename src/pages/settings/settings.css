@@ -30,13 +30,13 @@
     flex-direction: column;
 }
 
-.settingspp {
+.settingsPP {
     display: flex;
     align-items: center;
     margin: 10px 0;
 }
 
-.settingspp > img {
+.settingsPP > img {
     width: 70px;
     height: 70px;
     border-radius: 20px;
